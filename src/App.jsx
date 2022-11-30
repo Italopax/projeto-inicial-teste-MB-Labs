@@ -5,6 +5,11 @@ import Header from './components/Header';
 import Home from './pages/Home';
 
 function App() {
+
+  React.useEffect(() => {
+    document.title = 'SpeakHere'
+  }, [])
+
   return (
     <div className='min-h-[100vh] h-full bg-white flex flex-col'>
       <BrowserRouter>
