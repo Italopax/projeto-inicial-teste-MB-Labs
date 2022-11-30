@@ -13,13 +13,13 @@ export default function Footer () {
         <p>Entre em contato conosco:</p>
         <div className='flex gap-2 justify-center'>
           <Link to='#'>
-            <Facebook className='h-6' />
+            <Facebook className='h-7' />
           </Link>
           <Link to='#'>
-            <Instagram className='h-6' />
+            <Instagram className='h-7' />
           </Link>
           <Link to='#'>
-            <Linkedin className='h-6' />
+            <Linkedin className='h-7' />
           </Link>
         </div>
       </div>
