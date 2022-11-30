@@ -9,7 +9,7 @@ export default function Footer () {
   return(
     <footer className='bg-primary text-textButton flex font-bold items-center justify-center gap-4'>
       <Logo className='h-full' />
-      <div className=''>
+      <div className='text-center'>
         <p>Entre em contato conosco:</p>
         <div className='flex gap-2 justify-center'>
           <Link to='#'>

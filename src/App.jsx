@@ -9,7 +9,7 @@ function App() {
     <div className='min-h-[100vh] h-full bg-white flex flex-col'>
       <BrowserRouter>
         <Header />
-        <main className='flex-1 m-auto max-w-5xl p-4'>
+        <main className='flex-1 w-full bg-neutralLight flex flex-col'>
           <Routes>
             <Route path="/" element={<Home />} /> 
           </Routes>

@@ -9,6 +9,7 @@ module.exports = {
         'primary': '#fb1',
         'secundary': '#333',
         'neutral': '#eee',
+        'neutralLight': '#f1f1f1',
         'textButton': '#764701',
         'error': '#f31'
       },
@@ -18,6 +19,9 @@ module.exports = {
       screens: {
         'tablet': '800px',
       },
+      backgroundImage: {
+        'study': "url('./assets/study.png')",
+      }
     },
   },
   plugins: [],

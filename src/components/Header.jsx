@@ -30,7 +30,3 @@ export default function Header () {
     </header>
   )
 }
-
-// login
-// cadastre-se
-// sobre
