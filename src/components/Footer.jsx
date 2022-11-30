@@ -7,7 +7,7 @@ import { ReactComponent as Linkedin } from '../assets/linkedinLogo.svg';
 
 export default function Footer () {
   return(
-    <footer className='bg-primary text-textButton flex font-bold items-center justify-center gap-4'>
+    <footer className='bg-primary text-textButton flex font-bold items-center justify-center gap-4 py-2'>
       <Logo className='h-full' />
       <div className='text-center'>
         <p>Entre em contato conosco:</p>
